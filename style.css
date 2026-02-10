@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    height:100vh;
+    background:url("bg.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba;
+}
+
+.login-box{
+    position:relative;
+    background:#fff;
+    width:90%;
+    max-width:360px;
+    padding:25px;
+    border-radius:px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+    text-align:center;
+}
+
+.logo img{
+    width:70px;
+    margin-bottom:10px;
+}
+
+h3{
+    margin:5px 0 20px;
+    font-weight:normal;
+    color:#333;
+}
+
+label{
+    display:block;
+    text-align:left;
+    font-size:14px;
+    color:#555;
+    margin-bottom:5px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size:14px;
+}
+
+.password-box{
+    position:relative;
+}
+
+.eye{
+    height: 1;
+    width: 1;
+    position:absolute;
+    right:10px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    font-size:14px;
+    color:#666;
+}
+
+.forgot{
+    display:block;
+    margin:15px 0;
+    font-size:13px;
+    color:#777;
+    text-decoration:none;
+}
+
+.btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:4px;
+    font-size:15px;
+    cursor:pointer;
+    margin-bottom:10px;
+}
+
+  nav{
+    background:#151677;
+    color:white;
+    
+}
+
+.register{
+    background:#666;
+    color:white;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+.error{
+    color:red;
+    font-size:13px;
+    margin-bottom:10px;
+}
+.box{background:#fff;margin:20px;padding:20px;border-radius:6px}
+button{padding:10px;background:#007ad9;color:#fff;border:none}
+
+
+    h1{
+      height: 500px;
+
+    }
+.table{
+color: #151677;
+width: 100%;
+}
